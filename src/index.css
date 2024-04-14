@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .from-custom-blue {
+      --tw-gradient-from: #4458dc;
+    }
+    .to-custom-purple {
+      --tw-gradient-to: #854fee;
+    }
+    .hover\:from-custom-purple:hover {
+      --tw-gradient-from: #854fee;
+    }
+    .hover\:to-custom-blue:hover {
+      --tw-gradient-to: #4458dc;
+    }
+}
