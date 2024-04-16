@@ -40,3 +40,37 @@
         margin: 20px 0;
     }
 }
+
+#form{
+    width: 100%;
+    aspect-ratio: 21/9;
+    background-image: url('src/assets/img/Form6.jpg');
+    background-size: cover;
+    background-position: bottom;
+    display: grid;
+    place-items: center;
+}
+form{
+    width: 35%;
+    min-width: 400px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.form-label{
+    color: white;
+    letter-spacing: 1px;
+    position: relative;
+    top: -38px;
+    left: 20px;
+    transition: top .5s ease;
+}
+.form-input{
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid white;
+}
+.form-input:focus ~ .form-label, .form-input:valid ~ .form-label{
+    top: -58px;
+    border-radius: 50px;
+}
