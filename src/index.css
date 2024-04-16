@@ -16,3 +16,7 @@
       --tw-gradient-to: #4458dc;
     }
 }
+
+body{
+  background-image:  url('src/assets/img/body-bg.png.webp');
+}

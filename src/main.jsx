@@ -14,11 +14,7 @@ import CAD from './components/Home/Project/CAD.jsx'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Root />}>
-      <Route path='' element={<Home />} >
-        {/* <Route path='/' element={<Home />} />
-        <Route path='/web' element={<Web />} />
-        <Route path='/graphic' element={<Graphic />} /> */}
-      </Route>
+      <Route path='' element={<Home />} />
       <Route path='about' element={<About />} />
       <Route path='service' element={<Service />} />
       <Route path='portfolio' element={<Portfolio />} />
