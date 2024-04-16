@@ -2,3 +2,20 @@
     width: 200px;
     aspect-ratio: 21/9;
 }
+
+
+
+#img{
+    width: 150px;
+    height: 150px;
+    aspect-ratio: 1/1;
+}
+
+@media only screen and (max-width: 768px){
+    #img{
+        width: 100%;
+        height: auto;
+        aspect-ratio: 4/3;
+        margin: 20px 0;
+    }
+}

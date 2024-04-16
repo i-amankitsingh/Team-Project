@@ -1,0 +1,7 @@
+.overlay{
+    transition: all 1s ease;
+}
+.card-header:hover>.overlay{
+    width: 100%;
+    height: 100%;
+}
