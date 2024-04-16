@@ -10,6 +10,27 @@
     height: 150px;
     aspect-ratio: 1/1;
 }
+#team-card>#icon-div{
+    margin-top: 0;
+    transition: all .5s ease;
+    background-color: rgba(0,0,0,.3);
+    padding: 10px 0;
+}
+#team-card:hover>#icon-div{
+    margin-top: -55px;
+}
+#icon-div>a{
+    display: grid;
+    place-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    transition: transform .5s ease;
+}
+#icon-div>a:hover{
+    transform: perspective(500px) rotateY(360deg);
+}
 
 @media only screen and (max-width: 768px){
     #img{
