@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 const Footer = () => {
     return (
         <>
-            <section className="md:flex justify-around py-10">
+            <section className="md:flex justify-around p-10">
                 <div>
                     <img src={Logo} />
-                    <div className="mt-16">
+                    <div className="mt-16 mb-10">
                         <div className="flex gap-5">
                             <i className="fa fa-home text-[#4458dc] text-2xl"></i>
                             <div>
@@ -32,8 +32,8 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex gap-8">
-                    <ul className="space-y-4">
+                <div className="sm:flex gap-8">
+                    <ul className="space-y-4 mb-5">
                         <li className="font-medium">RESOURCES</li>
                         <li className="text-gray-500 font-medium">
                             <Link to='/'>Home</Link>
@@ -42,7 +42,7 @@ const Footer = () => {
                             <Link to='/about'>About</Link>
                         </li>
                     </ul>
-                    <ul className="space-y-4">
+                    <ul className="space-y-4 mb-5">
                         <li className="font-medium">FOLLOW US</li>
                         <li className="text-gray-500 font-medium">
                             <Link to=''>GitHub</Link>
@@ -51,7 +51,7 @@ const Footer = () => {
                             <Link to=''>Discourd</Link>
                         </li>
                     </ul>
-                    <ul className="space-y-4">
+                    <ul className="space-y-4 mb-5">
                         <li className="font-medium">LEGAL</li>
                         <li className="text-gray-500 font-medium">
                             <Link to=''>Privacy Policy</Link>
@@ -62,8 +62,8 @@ const Footer = () => {
                     </ul>
                 </div>
             </section>
-            <div className="border border-t-gray-300 md:flex justify-around py-3">
-                <span>&copy; 2024 TeamDev. All Right Reserved.</span>
+            <div className="border border-t-gray-300 md:flex justify-around py-3 px-10">
+                <span className="block sm:mb-0 mb-2">&copy; 2024 TeamDev. All Right Reserved.</span>
                 <div className="text-gray-500 flex gap-5 text-lg">
                     <a href=""><i className="fa fa-instagram"></i></a>
                     <a href=""><i className="fa fa-whatsapp"></i></a>
