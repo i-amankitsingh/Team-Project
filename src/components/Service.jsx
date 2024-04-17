@@ -1,9 +1,14 @@
 import React from "react";
+import BreadCrumb from "./BreadCrumb";
+import HomeService from './Home/Service'
+import Client from './Home/Client'
 
 const Service = () => {
     return (
         <>
-            <h1 className="text-center bg-green-600 py-8">Service</h1>
+            <BreadCrumb about='SERVICES' loc='Home - Services' />
+            <HomeService />
+            <Client />
         </>
     )
 }
