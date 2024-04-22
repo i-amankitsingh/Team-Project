@@ -27,7 +27,7 @@ const Client = () => {
                         <div className="text-left">
                             <label className="font-medium text-2xl mb-5 block">Ankit Jethuri</label>
                             <p>
-                                A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                            A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
                             </p>
                         </div>
                     </div>
@@ -40,17 +40,27 @@ const Client = () => {
                         A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
                         </p>
                     </div>
-                </div>
-
-                <div className="testimonial md:flex gap-5 shadow-xl p-5 bg-white">
-                    <img src="src/assets/img/acc.jpg" className="rounded-md" id="img" />
-                    <div className="text-left">
-                        <label className="font-medium text-2xl mb-5 block">Kajal Rawat</label>
-                        <p>
-                        A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-                        </p>
                     </div>
-                </div>
+
+                    <div className="testimonial md:flex gap-5 shadow-xl p-5 bg-white">
+                        <img src="src/assets/img/acc.jpg" className="rounded-md" id="img" />
+                        <div className="text-left">
+                            <label className="font-medium text-2xl mb-5 block">Kajal Rawat</label>
+                            <p>
+                            A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="testimonial md:flex gap-5 shadow-xl p-5 bg-white">
+                        <img src="src/assets/img/acc.jpg" className="rounded-md" id="img" />
+                        <div className="text-left">
+                            <label className="font-medium text-2xl mb-5 block">Himanshu</label>
+                            <p>
+                            A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                            </p>
+                        </div>
+                    </div>
                 </OwlCarousel>
             </section>
         </>

@@ -11,12 +11,9 @@ const AboutUs = () => {
                     <div className="">
                         <h2 className="text-3xl font-bold my-5">LET'S INTRODUCED ABOUT OURSELVES</h2>
                         <p className="text-lg text-gray-500">
-                        Whose given. Were gathered. There first subdue greater. Bearing you Whales heaven midst their. Beast creepeth. Fish days.
+                        Welcome to team dev, where innovation meets expertise Web Dev, SEO, Graphips Design, CAD. Our team is passionate about [mission/vision], striving to [purpose/goal]. With a diverse blend of skills and experiences, we're committed to delivering top-notch solutions tailored to meet our clients' needs.
                         </p>
-                        <p className="text-lg text-gray-500 my-5">
-                        Is give may shall likeness made yielding spirit a itself together created after sea is in beast beginning signs open god you're gathering whose gathered cattle let. Creature whales fruit unto meat the life beginning all in under give two.
-                        </p>
-                        <button className="bg-gradient-to-r from-custom-blue to-custom-purple hover:from-transparent border border-custom-blue border-2 hover:to-transparent text-white hover:text-black py-3 px-10 rounded transition-colors duration-500">DOWNLOAD CV</button>
+                        <button className="bg-gradient-to-r mt-3 from-custom-blue to-custom-purple hover:from-transparent border border-custom-blue border-2 hover:to-transparent text-white hover:text-black py-3 px-10 rounded transition-colors duration-500">DOWNLOAD CV</button>
                     </div>
                 </div>
             </section>
