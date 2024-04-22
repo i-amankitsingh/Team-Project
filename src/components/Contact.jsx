@@ -1,9 +1,13 @@
 import React from "react";
+import BreadCrumb from "./BreadCrumb";
+import Form from './Home/Form'
+
 
 const Contact = () => {
     return (
         <>
-            <h1 className="text-center bg-green-600 py-8">Contact</h1>
+            <BreadCrumb about='CONTACT US' loc='Home - Contact' />
+            <Form />
         </>
     )
 }

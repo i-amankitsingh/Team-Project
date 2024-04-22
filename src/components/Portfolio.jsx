@@ -1,9 +1,13 @@
 import React from "react";
+import BreadCrumb from "./BreadCrumb";
+import Work from './Home/Work'
+
 
 const Portfolio = () => {
     return (
         <>
-            <h1 className="text-center bg-green-600 py-8">Portfolio</h1>
+            <BreadCrumb about='PORTFOLIO' loc='Home - Portfolio' />
+            <Work /> 
         </>
     )
 }

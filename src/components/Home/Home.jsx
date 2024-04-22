@@ -4,6 +4,7 @@ import Service from "./Service";
 import Work from "./Work";
 import Team from "./Team";
 import Client from "./Client";
+import Form from './Form'
 import './Style.css';
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
             <Work />
             <Team />
             <Client />
+            <Form />
         </>
     )
 }
