@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import {Link, NavLink} from 'react-router-dom'
-import Logo from '../assets/img/logo.png.webp'
+import Logo from '../../public/img/logo.png.webp'
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(true)

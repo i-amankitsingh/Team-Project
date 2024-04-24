@@ -5,7 +5,7 @@ const AboutUs = () => {
         <>
             <section className="lg:flex py-3 px-10 justify-center items-center gap-10">
                 <div className="lg:w-1/2 w-full">
-                    <img src="src/assets/img/about-us.png.webp" />
+                    <img src="public/img/about-us.png.webp" />
                 </div>
                 <div className="lg:w-1/2 w-full px-5">
                     <div className="">
@@ -24,19 +24,19 @@ const AboutUs = () => {
                 <div className="lg:w-1/2 w-full flex lg:justify-end justify-center">
                     <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5" id="company-logo">
                         <div className="py-3">
-                            <img src="src/assets/img/company1.jpg"  />
+                            <img src="public/img/company1.jpg"  />
                         </div>
                         <div className="py-3">
-                        <img src="src/assets/img/company2.jpg" />
+                        <img src="public/img/company2.jpg" />
                         </div>
                         <div className="py-3">
-                        <img src="src/assets/img/company3.png" />
+                        <img src="public/img/company3.png" />
                         </div>
                     </div>
                 </div>
                 <div className="lg:w-1/2 w-full lg:my-0 my-10 flex justify-center items-center flex-col">
                     <div className="relative">
-                        <img src="src/assets/img/client-info-bg.png.webp" />
+                        <img src="public/img/client-info-bg.png.webp" />
                         <div className="flex absolute top-0 ml-12 gap-5 mt-10">
                             <span className="text-7xl font-bold text-custom-purple">10</span>
                             <span className="text-lg font-bold w-10 block">Years Experience Working</span>
