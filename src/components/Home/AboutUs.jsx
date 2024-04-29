@@ -5,7 +5,7 @@ const AboutUs = () => {
         <>
             <section className="lg:flex py-3 px-10 justify-center items-center gap-10">
                 <div className="lg:w-1/2 w-full">
-                    <img src="public/img/about-us.png.webp" />
+                    <img src="img/about-us.png.webp" />
                 </div>
                 <div className="lg:w-1/2 w-full px-5">
                     <div className="">
@@ -24,13 +24,13 @@ const AboutUs = () => {
                 <div className="lg:w-1/2 w-full flex lg:justify-end justify-center">
                     <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5" id="company-logo">
                         <div className="py-3">
-                            <img src="public/img/company1.jpg"  />
+                            <img src="img/company1.jpg"  />
                         </div>
                         <div className="py-3">
-                        <img src="public/img/company2.jpg" />
+                        <img src="img/company2.jpg" />
                         </div>
                         <div className="py-3">
-                        <img src="public/img/company3.png" />
+                        <img src="img/company3.png" />
                         </div>
                     </div>
                 </div>
