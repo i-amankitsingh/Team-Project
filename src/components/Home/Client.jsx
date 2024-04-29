@@ -18,7 +18,7 @@ const Client = () => {
         <>
             <section className="w-3/4 m-auto my-10 text-center mt-28">
                 <h2 className="text-3xl font-bold text-center my-2">CLIENT SAY ABOUT ME</h2>
-                <p className="w-1/2 text-gray-500 m-auto mt-5 mb-28">Is give may shall likeness made yielding spirit a itself togeth created after sea is in beast
+                <p className="md:w-1/2 w-full text-gray-500 m-auto mt-5 mb-28">Is give may shall likeness made yielding spirit a itself togeth created after sea is in beast
                     beginning signs open god you're gathering ithe</p>
                 
                 <OwlCarousel className='owl-theme' loop margin={20} nav autoplay {...options}>
