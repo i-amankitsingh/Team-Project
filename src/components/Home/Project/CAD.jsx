@@ -2,9 +2,9 @@ import React from "react";
 import './ProjectStyle.css';
 
 const img = [
-    { url: 'src/assets/project/cad/iimg1.jpg', link: 'http://himanshunegi.000.pe/#portfolio', name: 'Interior Design', about: 'Kitchen Interior Design' },
-    { url: 'src/assets/project/cad/iimg2.jpg', link: 'http://himanshunegi.000.pe/#portfolio', name: 'House Interior', about: 'Drawing Room Interior Design' },
-    { url: 'src/assets/project/cad/eimg1.jpg', link: 'http://himanshunegi.000.pe/#portfolio', name: 'House Exterior', about: 'House Exterior Design' },
+    { url: 'project/cad/iimg1.jpg', link: 'http://himanshunegi.000.pe/#portfolio', name: 'Interior Design', about: 'Kitchen Interior Design' },
+    { url: 'project/cad/iimg2.jpg', link: 'http://himanshunegi.000.pe/#portfolio', name: 'House Interior', about: 'Drawing Room Interior Design' },
+    { url: 'project/cad/eimg1.jpg', link: 'http://himanshunegi.000.pe/#portfolio', name: 'House Exterior', about: 'House Exterior Design' },
 ]
 
 const CAD = () => {

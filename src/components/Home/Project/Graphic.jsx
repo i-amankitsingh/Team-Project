@@ -2,9 +2,9 @@ import React from "react";
 import './ProjectStyle.css'
 
 const img = [
-    { url: 'src/assets/project/graphic/img1.jpg', link: 'http://himanshunegi.000.pe/#portfolio', name: 'Cold Drink', about: 'Cold Drink Comapny' },
-    { url: 'src/assets/project/graphic/img2.jpg', link: 'http://himanshunegi.000.pe/#portfolio', name: 'Food Banner', about: 'Food Company Banner' },
-    { url: 'src/assets/project/graphic/cover page.jpg', link: 'http://himanshunegi.000.pe/#portfolio', name: 'Cover Page', about: 'Notebook Cover Page Design' },
+    { url: 'project/graphic/img1.jpg', link: 'http://himanshunegi.000.pe/#portfolio', name: 'Cold Drink', about: 'Cold Drink Comapny' },
+    { url: 'project/graphic/img2.jpg', link: 'http://himanshunegi.000.pe/#portfolio', name: 'Food Banner', about: 'Food Company Banner' },
+    { url: 'project/graphic/cover page.jpg', link: 'http://himanshunegi.000.pe/#portfolio', name: 'Cover Page', about: 'Notebook Cover Page Design' },
 ]
 
 const Graphic = () => {

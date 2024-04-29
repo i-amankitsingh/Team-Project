@@ -2,9 +2,9 @@ import React from "react";
 import './ProjectStyle.css'
 
 const img = [
-    { url: 'src/assets/project/web/hillansh.jpeg', link: 'https://www.hillansh.com', name: 'Hillansh', about: 'Adventure Company Website' },
-    { url: 'src/assets/project/web/cart.png', link: 'http://www.itcourses.free.nf/index.html', name: 'Course', about: 'Course Portfolio' },
-    { url: 'src/assets/project/web/portfolio.png', link: 'http://himanshunegi.000.pe', name: 'Personal Portfolio', about: 'Personal Portfolio' },
+    { url: 'project/web/hillansh.jpeg', link: 'https://www.hillansh.com', name: 'Hillansh', about: 'Adventure Company Website' },
+    { url: 'project/web/cart.png', link: 'http://www.itcourses.free.nf/index.html', name: 'Course', about: 'Course Portfolio' },
+    { url: 'project/web/portfolio.png', link: 'http://himanshunegi.000.pe', name: 'Personal Portfolio', about: 'Personal Portfolio' },
 ]
 
 const Web = () => {

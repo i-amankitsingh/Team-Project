@@ -2,10 +2,10 @@ import React from "react";
 import ServiceCard from "./ServiceCard";
 
 const data = [
-    {img: 'src/assets/img/s1.png.webp', title:'WEB DEVELOPMENT', para:'Creeping for female light years that lesser can\'t evening heaven isn\'t bearing tree'},
-    {img: 'src/assets/img/s2.png.webp', title:'SEO OPTIMIZATION', para:'Creeping for female light years that lesser can\'t evening heaven isn\'t bearing tree'},
-    {img: 'src/assets/img/s3.png.webp', title:'GRAPHIC DESIGN', para:'Creeping for female light years that lesser can\'t evening heaven isn\'t bearing tree'},
-    {img: 'src/assets/img/s4.png.webp', title:'CAD DESIGN', para:'Creeping for female light years that lesser can\'t evening heaven isn\'t bearing tree'},
+    {img: 'img/s1.png.webp', title:'WEB DEVELOPMENT', para:'Creeping for female light years that lesser can\'t evening heaven isn\'t bearing tree'},
+    {img: 'img/s2.png.webp', title:'SEO OPTIMIZATION', para:'Creeping for female light years that lesser can\'t evening heaven isn\'t bearing tree'},
+    {img: 'img/s3.png.webp', title:'GRAPHIC DESIGN', para:'Creeping for female light years that lesser can\'t evening heaven isn\'t bearing tree'},
+    {img: 'img/s4.png.webp', title:'CAD DESIGN', para:'Creeping for female light years that lesser can\'t evening heaven isn\'t bearing tree'},
 ]
 
 const Service = () => {

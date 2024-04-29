@@ -44,7 +44,7 @@
 #form{
     width: 100%;
     aspect-ratio: 21/9;
-    background-image: url('src/assets/img/Form6.jpg');
+    background-image: url('img/Form6.jpg');
     background-size: cover;
     background-position: bottom;
     display: grid;

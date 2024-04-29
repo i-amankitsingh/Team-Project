@@ -14,7 +14,7 @@ const Team = () => {
                     teamData.map((data) => (
                         <div className="flex-1 bg-white my-5">
                     <div className="w-full relative overflow-hidden" id="team-card">
-                        <img src="src/assets/img/me.jpg" className="rounded-md" />
+                        <img src="img/me.jpg" className="rounded-md" />
                         <div className="w-full flex justify-center gap-5 absolute" id="icon-div">
                             <a href="https://instagram.com" className="text-2xl text-pink-600"><i className="fa fa-instagram"></i></a>
                             <a href="https://instagram.com" className="text-2xl text-sky-400"><i className="fa fa-twitter"></i></a>

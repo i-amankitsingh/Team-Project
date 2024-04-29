@@ -14,7 +14,7 @@ const Slider = () => {
                     </div>
                 </div>
                 <div className="lg:block hidden">
-                    <img src='public/img/home-right.png.webp' />
+                    <img src='img/home-right.png.webp' />
                 </div>
             </section>
         </>
