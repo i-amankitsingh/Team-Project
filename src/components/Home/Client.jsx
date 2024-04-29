@@ -23,7 +23,7 @@ const Client = () => {
                 
                 <OwlCarousel className='owl-theme' loop margin={20} nav autoplay {...options}>
                     <div className="testimonial md:flex gap-5 shadow-xl p-5 bg-white">
-                        <img src="src/assets/img/me.jpg" className="rounded-md" id="img" />
+                        <img src="img/me.jpg" className="rounded-md" id="img" />
                         <div className="text-left">
                             <label className="font-medium text-2xl mb-5 block">Ankit Jethuri</label>
                             <p>
@@ -33,7 +33,7 @@ const Client = () => {
                     </div>
 
                     <div className="testimonial md:flex gap-5  shadow-xl p-5 bg-white">
-                    <img src="src/assets/img/dev2.jpg" className=" rounded-md" id="img" />
+                    <img src="img/dev2.jpg" className=" rounded-md" id="img" />
                     <div className="text-left">
                         <label className="font-medium text-2xl mb-5 block">Jagdeesh Bhandari</label>
                         <p>
@@ -43,7 +43,7 @@ const Client = () => {
                 </div>
 
                 <div className="testimonial md:flex gap-5 shadow-xl p-5 bg-white">
-                    <img src="src/assets/img/acc.jpg" className="rounded-md" id="img" />
+                    <img src="img/acc.jpg" className="rounded-md" id="img" />
                     <div className="text-left">
                         <label className="font-medium text-2xl mb-5 block">Kajal Rawat</label>
                         <p>

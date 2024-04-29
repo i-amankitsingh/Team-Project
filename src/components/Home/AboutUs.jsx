@@ -24,19 +24,19 @@ const AboutUs = () => {
                 <div className="lg:w-1/2 w-full flex lg:justify-end justify-center">
                     <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5" id="company-logo">
                         <div className="py-3">
-                            <img src="img/company1.jpg"  />
+                            <img src="img/Company1.jpg"  />
                         </div>
                         <div className="py-3">
-                        <img src="img/company2.jpg" />
+                        <img src="img/Company2.jpg" />
                         </div>
                         <div className="py-3">
-                        <img src="img/company3.png" />
+                        <img src="img/Company3.png" />
                         </div>
                     </div>
                 </div>
                 <div className="lg:w-1/2 w-full lg:my-0 my-10 flex justify-center items-center flex-col">
                     <div className="relative">
-                        <img src="public/img/client-info-bg.png.webp" />
+                        <img src="img/client-info-bg.png.webp" />
                         <div className="flex absolute top-0 ml-12 gap-5 mt-10">
                             <span className="text-7xl font-bold text-custom-purple">10</span>
                             <span className="text-lg font-bold w-10 block">Years Experience Working</span>
