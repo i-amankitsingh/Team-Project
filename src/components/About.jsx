@@ -5,6 +5,7 @@ import Client from './Home/Client'
 
 
 const About = () => {
+    
     return (
         <>
             <BreadCrumb about='ABOUT US' loc='Home - About' />

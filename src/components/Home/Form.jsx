@@ -3,7 +3,7 @@ import React from "react";
 const Form = () => {
     return (
         <>
-            <section className="py-20 bg-[url('img/Form6.jpg')] " id="form">
+            <section className="py-20 bg-[url('/img/Form6.jpg')] " id="form">
                 <form action="https://api.web3forms.com/submit" method="POST" className="py-10 px-5 bg-red-00">
                 <input type="hidden" name="access_key" value="1024f79a-3e8b-40af-b6e9-e4f6044f2dc1" />
                     <h1 className="text-center my-10 text-white text-5xl">Contact Us</h1>

@@ -1,6 +1,9 @@
-import React from "react";
+import React, {useEffect} from "react";
 
 const Slider = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <>
             <section className="w-full flex justify-center items-center gap-10 py-5 px-10">

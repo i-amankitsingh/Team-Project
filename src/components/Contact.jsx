@@ -4,6 +4,7 @@ import Form from './Home/Form'
 
 
 const Contact = () => {
+    
     return (
         <>
             <BreadCrumb about='CONTACT US' loc='Home - Contact' />

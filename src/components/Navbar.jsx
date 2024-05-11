@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import React, {useState } from "react";
 import {Link, NavLink} from 'react-router-dom'
 import Logo from '../../public/img/logo.png.webp'
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(true)
 
-    console.log(toggle);
     return (
         <>
             <nav className="w-full sticky top-0 z-10 flex lg:justify-around justify-between items-center lg:bg-gray-100 bg-black py-5 px-5">
