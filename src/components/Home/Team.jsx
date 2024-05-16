@@ -11,6 +11,10 @@ const teamData = [
 const Team = () => {
     return (
         <>
+            <h2 className="text-4xl font-bold mt-10 mb-7 text-center">OUR TEAM</h2>
+            <p className="text-center text-gray-500 w-1/2 m-auto mb-5">
+            Meet our team of experts, dedicated to delivering exceptional digital solutions. Each member brings unique skills in web development, SEO, graphic design, and CAD design to ensure your project's success.
+            </p>
             <section className="w-3/4 m-auto mt-28 md:flex gap-10">
                 {
                     teamData.map((data) => (
