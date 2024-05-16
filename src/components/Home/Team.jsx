@@ -1,10 +1,12 @@
 import React from "react";
 
 const teamData = [
-    {},
-    {},
-    {}
+    {img : 'img/me.jpg', name : 'Ankit Singh', about : 'Crafting intuitive and responsive user interfaces with HTML, CSS, and JavaScript to ensure an engaging and seamless user experience.', role : 'Front End Developer', instagram : '', twitter : '', linkedin : 'www.linkedin.com/in/ankit-singh-jethuri', github : 'https://github.com/i-amankitsingh'},
+    {img : 'img/member2.jpg', name : 'Jagdeesh Bhandari', about : 'Building robust and scalable server-side applications, managing databases, and ensuring seamless integration with front-end systems for optimal performance.', role : 'Back End Developer', instagram : 'https://www.instagram.com/0_jagdeesh_9?igsh=MXV4dWJ2dDg3NHpodA==', twitter : 'https://twitter.com/_Jagdeesh_5', linkedin : 'www.linkedin.com/in/jagdeesh09', github : 'https://github.com/Jagdeesh9'},
+    {img : 'img/member3.jpg', name : 'Himanshu Negi', about : 'Creating visually stunning and impactful designs, from branding to digital graphics, to effectively communicate your message and captivate your audience.', role : 'Graphic/CAD Designer', instagram : '', twitter : '', linkedin : '', github : ''}
 ]
+
+// twitter:https://twitter.com/_Jagdeesh_5    LinkedIn: www.linkedin.com/in/jagdeesh09 GitHub:https://github.com/Jagdeesh9 Instagram:https://www.instagram.com/0_jagdeesh_9?igsh=MXV4dWJ2dDg3NHpodA== 
 
 const Team = () => {
     return (
@@ -14,19 +16,19 @@ const Team = () => {
                     teamData.map((data) => (
                         <div className="flex-1 bg-white my-5">
                     <div className="w-full relative overflow-hidden" id="team-card">
-                        <img src="img/me.jpg" className="rounded-md" />
+                        <img src={data.img} className="rounded-md w-full aspect-square" />
                         <div className="w-full flex justify-center gap-5 absolute" id="icon-div">
-                            <a href="https://instagram.com" className="text-2xl text-pink-600"><i className="fa fa-instagram"></i></a>
-                            <a href="https://instagram.com" className="text-2xl text-sky-400"><i className="fa fa-twitter"></i></a>
-                            <a href="https://instagram.com" className="text-2xl text-blue-500" ><i className="fa fa-linkedin"></i></a>
-                            <a href="https://instagram.com" className="text-2xl"><i className="fa fa-github"></i></a>
+                            <a href={data.instagram} target="_blank" className="text-2xl text-pink-600"><i className="fa fa-instagram"></i></a>
+                            <a href={data.twitter} target="_blank" className="text-2xl text-sky-400"><i className="fa fa-twitter"></i></a>
+                            <a href={data.linkedin} target="_blank" className="text-2xl text-blue-500" ><i className="fa fa-linkedin"></i></a>
+                            <a href={data.github} target="_blank" className="text-2xl"><i className="fa fa-github"></i></a>
                         </div>
                     </div>
                     <div className="px-3 pb-4 rounded-md">
-                        <span className="text-2xl block px-1 pt-2">Ankit Jethuri</span>
-                        <span className="text-lg text-gray-400">Front End Developer</span>
+                        <span className="text-2xl block px-1 pt-2">{data.name}</span>
+                        <span className="text-lg text-gray-400">{data.role}</span>
                         <p className="mt-2">
-                        Is give may shall likeness made yielding spirit a itself togeth created after sea is in beast beginning signs open god you're gathering ithe
+                            {data.about}
                         </p>
                     </div>
                 </div>

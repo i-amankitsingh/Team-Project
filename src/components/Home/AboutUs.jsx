@@ -11,10 +11,11 @@ const AboutUs = () => {
                     <div className="">
                         <h2 className="text-3xl font-bold my-5">LET'S INTRODUCED ABOUT OURSELVES</h2>
                         <p className="text-lg text-gray-500">
-                        Whose given. Were gathered. There first subdue greater. Bearing you Whales heaven midst their. Beast creepeth. Fish days.
+                        We are a dedicated team offering comprehensive digital solutions. Our expertise spans website development with robust backend systems, graphic design, and CAD design, ensuring tailored, high-quality services for our clients.
                         </p>
                         <p className="text-lg text-gray-500 my-5">
-                        Is give may shall likeness made yielding spirit a itself together created after sea is in beast beginning signs open god you're gathering whose gathered cattle let. Creature whales fruit unto meat the life beginning all in under give two.
+                        
+                        We are a versatile team specializing in website development with robust backend solutions, graphic design, and CAD design. We cater to diverse client needs, delivering high-quality, tailored services to enhance their digital presence and design projects. Our expertise ensures comprehensive solutions from concept to execution, providing seamless and innovative results.
                         </p>
                         <button className="bg-gradient-to-r from-custom-blue to-custom-purple hover:from-transparent border border-custom-blue border-2 hover:to-transparent text-white hover:text-black py-3 px-10 rounded transition-colors duration-500">DOWNLOAD CV</button>
                     </div>
