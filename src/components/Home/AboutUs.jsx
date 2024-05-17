@@ -17,7 +17,7 @@ const AboutUs = () => {
                         
                         We are a versatile team specializing in website development with robust backend solutions, graphic design, and CAD design. We cater to diverse client needs, delivering high-quality, tailored services to enhance their digital presence and design projects. Our expertise ensures comprehensive solutions from concept to execution, providing seamless and innovative results.
                         </p>
-                        <button className="bg-gradient-to-r from-custom-blue to-custom-purple hover:from-transparent border border-custom-blue border-2 hover:to-transparent text-white hover:text-black py-3 px-10 rounded transition-colors duration-500">DOWNLOAD CV</button>
+                        <button className="bg-gradient-to-r from-custom-blue to-custom-purple hover:from-transparent border border-custom-blue border-2 hover:to-transparent text-white hover:text-black py-3 px-10 rounded transition-colors duration-500"><a href="My CV.pdf" download>DOWNLOAD CV</a></button>
                     </div>
                 </div>
             </section>

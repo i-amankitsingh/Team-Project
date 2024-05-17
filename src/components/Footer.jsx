@@ -19,7 +19,7 @@ const Footer = () => {
                         <div className="flex gap-5 my-5">
                             <i className="fa fa-phone text-[#4458dc] text-2xl"></i>
                             <div>
-                                <strong className="block">+91 6397022305</strong>
+                                <strong className="block">+91 6397022305, +91 7017988494</strong>
                                 <span>Mon to Sat 9am to 7pm</span>
                             </div>
                         </div>
@@ -68,7 +68,7 @@ const Footer = () => {
                     <a href=""><i className="fa fa-instagram"></i></a>
                     <a href=""><i className="fa fa-whatsapp"></i></a>
                     <a href=""><i className="fa fa-linkedin"></i></a>
-                    <a href=""><i className="fa fa-twitter"></i></a>
+                    <a href="https://wa.me/+919368567722" target="_blank"><i className="fa fa-twitter"></i></a>
                 </div>
             </div>
         </>
