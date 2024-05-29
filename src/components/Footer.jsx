@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from '../../public/img/logo.png.webp'
+import Logo from '../../public/img/logo.png'
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -7,8 +7,8 @@ const Footer = () => {
         <>
             <section className="md:flex justify-around p-10">
                 <div>
-                    <img src={Logo} />
-                    <div className="mt-16 mb-10">
+                    <img src={Logo} className="w-36" />
+                    <div className="mt-5 mb-10">
                         <div className="flex gap-5">
                             <i className="fa fa-home text-[#4458dc] text-2xl"></i>
                             <div>
@@ -45,7 +45,7 @@ const Footer = () => {
                     <ul className="space-y-4 mb-5">
                         <li className="font-medium">FOLLOW US</li>
                         <li className="text-gray-500 font-medium">
-                            <Link to=''>GitHub</Link>
+                            <Link to='https://github.com/i-amankitsingh'>GitHub</Link>
                         </li>
                         <li className="text-gray-500 font-medium">
                             <Link to=''>Discourd</Link>
@@ -66,9 +66,9 @@ const Footer = () => {
                 <span className="block sm:mb-0 mb-2">&copy; 2024 TeamDev. All Right Reserved.</span>
                 <div className="text-gray-500 flex gap-5 text-lg">
                     <a href=""><i className="fa fa-instagram"></i></a>
-                    <a href=""><i className="fa fa-whatsapp"></i></a>
+                    <a href="https://wa.me/+919368567722" target="_blank"><i className="fa fa-whatsapp"></i></a>
                     <a href=""><i className="fa fa-linkedin"></i></a>
-                    <a href="https://wa.me/+919368567722" target="_blank"><i className="fa fa-twitter"></i></a>
+                    <a href=""><i className="fa fa-twitter"></i></a>
                 </div>
             </div>
         </>

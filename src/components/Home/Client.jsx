@@ -23,26 +23,30 @@ const Client = () => {
                 
                 <OwlCarousel className='owl-theme' loop margin={20} nav autoplay {...options}>
                     <div className="testimonial md:flex gap-5 shadow-xl p-5 bg-white">
-                        <img src="img/me.jpg" className="rounded-md" id="img" />
+                        <img src="img/sachin.png" className="rounded-md" id="img" />
                         <div className="text-left">
-                            <label className="font-medium text-2xl mb-5 block">Ankit Jethuri</label>
+                            <label className="font-medium text-2xl mb-5 block">Sachin Chauhan</label>
                             <p>
-                                A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                            "I recently had the pleasure of working with TeamDev on the development of my personal portfolio website, and I am thrilled with the outcome! The entire experience was seamless, 
+                            <details>
+                            <summary>Read More..</summary>
+                            from the initial consultation to the final launch, and the final product is everything I hoped for and more.
+                            </details>
                             </p>
                         </div>
                     </div>
 
                     <div className="testimonial md:flex gap-5  shadow-xl p-5 bg-white">
-                    <img src="img/dev2.jpg" className=" rounded-md" id="img" />
+                    <img src="img/shubham.webp" className=" rounded-md" id="img" />
                     <div className="text-left">
-                        <label className="font-medium text-2xl mb-5 block">Jagdeesh Bhandari</label>
+                        <label className="font-medium text-2xl mb-5 block">Shubham Rawat</label>
                         <p>
-                        A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                        We hired TeamDev to build our e-commerce platform from scratch, and we couldn't be happier with the results! From the initial consultation to the final deployment, the entire process was smooth, professional, and exceeded our expectations.
                         </p>
                     </div>
                 </div>
 
-                <div className="testimonial md:flex gap-5 shadow-xl p-5 bg-white">
+                {/* <div className="testimonial md:flex gap-5 shadow-xl p-5 bg-white">
                     <img src="img/acc.jpg" className="rounded-md" id="img" />
                     <div className="text-left">
                         <label className="font-medium text-2xl mb-5 block">Kajal Rawat</label>
@@ -50,7 +54,7 @@ const Client = () => {
                         A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
                         </p>
                     </div>
-                </div>
+                </div> */}
                 </OwlCarousel>
             </section>
         </>

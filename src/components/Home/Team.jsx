@@ -1,7 +1,7 @@
 import React from "react";
 
 const teamData = [
-    {img : 'img/me.jpg', name : 'Ankit Singh', about : 'Crafting intuitive and responsive user interfaces with HTML, CSS, and JavaScript to ensure an engaging and seamless user experience.', role : 'Front End Developer', instagram : '', twitter : '', linkedin : 'www.linkedin.com/in/ankit-singh-jethuri', github : 'https://github.com/i-amankitsingh'},
+    {img : 'img/me.jpg', name : 'Ankit Singh', about : 'Crafting intuitive and responsive user interfaces with HTML, CSS, and JavaScript to ensure an engaging and seamless user experience.', role : 'Front End Developer', instagram : 'https://www.instagram.com/itz.____ankit/', twitter : '', linkedin : 'www.linkedin.com/in/ankit-singh-jethuri', github : 'https://github.com/i-amankitsingh'},
     {img : 'img/member2.jpg', name : 'Jagdeesh Bhandari', about : 'Building robust and scalable server-side applications, managing databases, and ensuring seamless integration with front-end systems for optimal performance.', role : 'Back End Developer', instagram : 'https://www.instagram.com/0_jagdeesh_9?igsh=MXV4dWJ2dDg3NHpodA==', twitter : 'https://twitter.com/_Jagdeesh_5', linkedin : 'www.linkedin.com/in/jagdeesh09', github : 'https://github.com/Jagdeesh9'},
     {img : 'img/member3.jpg', name : 'Himanshu Negi', about : 'Creating visually stunning and impactful designs, from branding to digital graphics, to effectively communicate your message and captivate your audience.', role : 'Graphic/CAD Designer', instagram : 'https://www.instagram.com/himanshu_negi021?igsh=czI0YnJ1OXZpa3c0', twitter : 'https://www.facebook.com/profile.php?id=100070406466136&mibextid=ZbWKwL', linkedin : '', github : 'http://himanshunegi.000.pe'}
 ]

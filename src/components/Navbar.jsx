@@ -1,6 +1,6 @@
 import React, {useState } from "react";
 import {Link, NavLink} from 'react-router-dom'
-import Logo from '../../public/img/logo.png.webp'
+import Logo from '../../public/img/logo.png'
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(true)
@@ -10,7 +10,7 @@ const Navbar = () => {
             <nav className="w-full sticky top-0 z-10 flex lg:justify-around justify-between items-center lg:bg-gray-100 bg-black py-5 px-5">
                 <div className="logo">
                     <Link to="/">
-                         <img src={Logo} />
+                         <img src={Logo} className="w-36" />
                     </Link>
                 </div>
                 <div className={`menu absolute lg:relative lg:mt-0 lg:top-0 lg:py-0 py-5 lg:w-auto left-0 top-12 mt-7 w-full ${toggle? 'transform scale-y-0 lg:scale-y-100' : 'transform scale-y-100'} origin-top  transition-transform duretion-500 ease transform-o px-5 lg:bg-transparent bg-black`}>
