@@ -18,8 +18,7 @@ const Client = () => {
         <>
             <section className="w-3/4 m-auto my-10 text-center mt-28">
                 <h2 className="text-3xl font-bold text-center my-2">CLIENT SAY ABOUT ME</h2>
-                <p className="md:w-1/2 w-full text-gray-500 m-auto mt-5 mb-28">Is give may shall likeness made yielding spirit a itself togeth created after sea is in beast
-                    beginning signs open god you're gathering ithe</p>
+                <p className="md:w-1/2 w-full text-gray-500 m-auto mt-5 mb-28">Hear from my clients about their experiences and the impactful solutions delivered to meet their needs and exceed expectations</p>
                 
                 <OwlCarousel className='owl-theme' loop margin={20} nav autoplay {...options}>
                     <div className="testimonial md:flex gap-5 shadow-xl p-5 bg-white">
